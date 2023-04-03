@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(15, 15, 15);
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-1{
+    max-width: 1040px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+.section-1-header{
+    max-height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setion-1-header-logo img{
+    width: 49px;
+    height: 66px;
+}
+
+.setion-1-header-menu{
+    display: flex;
+    align-items: center;
+}
+
+.setion-1-header-menu div{
+    opacity: 0.8;
+    font-size: 18px;
+    line-height: 36px;
+    margin: 0 20px 0 36px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.setion-1-header-desc{
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setion-1-header-desc-1{
+    margin-top: 100px;
+    font-size: 106px;
+    line-height: 125px;
+    letter-spacing: -3px;
+    font-weight: 800;
+    text-align: center;
+}
+.setion-1-header-desc-2{
+    margin-top: 35px;
+    font-size: 30px;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.setion-1-header-desc-3{
+    margin-top: 58px;
+}
+.setion-1-header-desc-3 button{
+    padding: 20px 65px;
+    font-size: 24px;
+    font-weight: 800;
+    border: none;
+    background-color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+.section-2{
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-2-cont img{
+    position: absolute;
+    top: 7%;
+    left: 480px;
+}
+
