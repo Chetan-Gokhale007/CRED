@@ -89,4 +89,127 @@ body{
     top: 7%;
     left: 480px;
 }
+.section-3{
+    position: relative;
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
+    background-size: cover;
+    /* min-width: 100vw;
+    min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 240px 200px 180px;
+    -webkit-box-pack: justify;  
+}
 
+.section-3-header-1{
+    font-size: 100px;
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    opacity: 0.9;
+    font-weight: 800;
+    margin-top: -75px;
+}
+
+.section-3-header-2{
+    font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 30px;
+    white-space: pre-line;
+    font-weight: 800;
+}
+
+.section-3-cont{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    max-width: 630px;
+    font-weight: 450;
+}
+
+
+.section-3-button button{
+    display: inline-flex;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    padding: 20px 65px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: 800;
+    border: none;
+    letter-spacing: 0.4px;
+}
+
+.section-4{
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/neopop-image-mock.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-5{
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg);
+    padding: 240px 200px 180px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.section-5-header-1{
+    font-size: 100px;
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    opacity: 0.9;
+    font-weight: 800;
+    margin-top: -75px;
+}
+
+.section-5-header-2{
+    font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 30px;
+    white-space: pre-line;
+    font-weight: 800;
+}
+
+.section-5-cont{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    max-width: 630px;
+    font-weight: 450;
+}
+
+.section-5-button button{
+    display: inline-flex;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    padding: 20px 65px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: 800;
+    border: none;
+    letter-spacing: 0.4px;
+}
+
+footer{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
